@@ -108,7 +108,7 @@ $(document).ready(function() {
 													<h1>Football Everywhere!</h1>
 													<h2>Fun, free and 100% football</h2>
 													<p class="bannertext">GoalFace delivers professional football from Europe, the Americas, Africa and Asia to fans everywhere. </p>
-													<p class="signup"><a href="http://www.goalface.com/register" target="_blank">Sign Up Now ></a></p>
+													<p class="signup"><a href="http://www.goalface.com/register.php" target="_blank">Pre-Register Now!</a></p>
 												</div>
 												<p class="bannerrightimg"><img src="images/sliderimg.png" alt=""/></p>
 											</div>
@@ -117,33 +117,33 @@ $(document).ready(function() {
 											<div class="bannerinside ">
 												<div class="bannerleft">
 													<h1>Football Everywhere!</h1>
-													<h2>Fun, free and 100% football</h2>
-													<p class="bannertext">GoalFace delivers professional football from Europe, the Americas, Africa and Asia  to fans everywhere. </p>
-												  <p class="signup"><a href="http://www.goalface.com/register" target="_blank">Sign Up Now ></a></p>
+													<h2>Brings football to you anytime, everywhere, on demand</h2>
+													<p class="bannertext">GoalFace delivers live football scores, match alerts, goals, news and other updates to your email inbox, mobile phone and more whenever you want them.</p>
+												  <p class="signup"><a href="http://www.goalface.com/register.php" target="_blank">Pre-Register Now!</a></p>
 												</div>
-												<p class="bannerrightimg"><img src="images/sliderimg.png" alt=""/></p>
+												<p class="bannerrightimg"><img src="images/BringsToYou.png" alt=""/></p>
 											</div>
 									</div>
 									<div class="slide">
 											<div class="bannerinside ">
 												<div class="bannerleft">
 													<h1>Football Everywhere!</h1>
-													<h2>Fun, free and 100% football</h2>
-													<p class="bannertext">GoalFace delivers professional football from Europe, the Americas, Africa and Asia  to fans everywhere. </p>
-												  <p class="signup"><a href="http://www.goalface.com/register" target="_blank">Sign Up Now ></a></p>
+													<h2>Customize to focus on the things you care about most</h2>
+													<p class="bannertext">The GoalFace Dashboard gives you a single, personalized view of all your favorite football players, teams, leagues and tournaments around the world.</p>
+												  <p class="signup"><a href="http://www.goalface.com/register.php" target="_blank">Pre-Register Now!</a></p>
 												</div>
-												<p class="bannerrightimg"><img src="images/sliderimg.png" alt=""/></p>
+												<p class="bannerrightimg"><img src="images/Customized.png" alt=""/></p>
 											</div>
 									</div>
 									<div class="slide">
 											<div class="bannerinside ">
 												<div class="bannerleft">
 													<h1>Football Everywhere!</h1>
-													<h2>Fun, free and 100% football</h2>
-													<p class="bannertext">GoalFace delivers professional football from Europe, the Americas, Africa and Asia  to fans everywhere. </p>
-												  <p class="signup"><a href="http://www.goalface.com/register" target="_blank">Sign Up Now ></a></p>
+													<h2>Integrates with your favorite places in the web</h2>
+													<p class="bannertext">GoalFace player updates, team alerts, league RSS feeds, apps and widgets bring football to Facebook, Google+, Twitter and all of your favorite places online. </p>
+												  <p class="signup"><a href="http://www.goalface.com/register.php" target="_blank">Pre-Register Now!</a></p>
 												</div>
-												<p class="bannerrightimg"><img src="images/sliderimg.png" alt=""/></p>
+												<p class="bannerrightimg"><img src="images/Integrates.png" alt=""/></p>
 											</div>
 									</div>
 								</div>
@@ -184,8 +184,8 @@ $(document).ready(function() {
       			<div class="midleftbg">
       				<p class="newimg"><a href="register.php" target="_blank"><img src="images/joinnow.png" alt=""/></a></p>
       				<p class="favorites">Football when, where and how you want it</p>
-      				<p class="favourtext">A personalized football dashboard that puts you in the game. Email updates, mobile alerts, Facebook notifications and more to keep up with the players, teams and leagues you care about most.</p>
-      				<p class="visit2"><a href="register.php" target="_blank">Sign Up Now &raquo;</a></p>
+      				<p class="favourtext">Updates for the players and teams in the leagues and tournaments you care about most!. GoalFace notifications and alerts keep you close to the action no matter where you are!.</p>
+      				<p class="visit2"><a href="register.php" target="_blank">Pre-Register Today! &raquo;</a></p>
       			</div>
       	</div>
       	<div class="midbtm">
