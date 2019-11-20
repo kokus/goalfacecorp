@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, ul, li, form, input, h1, h2, h3, h4, h5, h6 {
+padding:0px;
+margin:0px;
+}
+body {
+text-align:center;
+background:url(../images/bg1.jpg) repeat-x #ffffff;
+margin:30px 0px 86px 0px;
+}
+.clear {
+clear:both;
+}
+a {
+outline:none;
+}
+.main {
+width:710px;
+margin:auto;
+background:#ffffff;
+}
+.special {
+text-align:center;
+width:100%;
+padding:9px 0px;
+background:#ff8f00;
+}
+.joincommunity {
+padding:14px 0px;
+}
+.logo {
+padding:0px 0px 0px 0px;
+}
+.content {
+width:590px;
+margin:auto;
+text-align:left;
+padding:18px 0px 0px 0px;
+}
+.content ul{
+list-style-type:none;
+}
+.content ul li{
+
+background:url("../images/small_soccerball_blue.gif") no-repeat scroll 0 10% transparent;
+font:16px Arial, Helvetica, sans-serif;
+color:#0e588d;
+line-height:19px;
+padding:0px 0px 16px 22px;
+}
+.fotoer {
+background:#0e588d;
+padding:13px 0px;
+font:bold 20px Arial, Helvetica, sans-serif;
+color:#ffffff;
+line-height:30px;
+}
+.fotoer a{
+font:bold 26px Arial, Helvetica, sans-serif;
+color:#ff8f00;
+line-height:30px;
+text-decoration:none;
+}
+.fotoer a:hover{
+text-decoration:underline;
+}
+.footerlogo {
+padding:7px 0px 0px 0px;
+}
+
+.fotoer .error {
+  margin-left:0px;
+  color:#9E0B0F;
+  margin-bottom:3px;
+  font:bold 14px Arial, Helvetica, sans-serif;
+}
+
+ .content p.bulletstitle {
+        color:#0E588D;
+        font:18px/19px Arial,Helvetica,sans-serif;
+  }
+
+	.key {
+		margin:5px 0 0px 105px;
+		padding:0;
+		width:495px;
+	}
+	
+	
+	.key li {
+		border-right:
+		medium none;
+		overflow:auto;
+		padding-bottom:5px;
+		width:auto;
+	}
+	
+	.key li label {
+		display:inline;
+		float:left;
+		font-size:20px;
+		font-weight:bold;
+		color:#ff8f00;
+		padding:11px 7px 0 0;
+	}
+	
+	.key li input.text {
+		border:3px solid #ff8f00;
+		color:#696969;
+		float:left;
+		font-size:18px;
+		font-weight:bold;
+		height:28px;
+		padding:7px 0 0 5px; 
+		width:250px;
+		line-height:normal;
+		margin-right:5px;
+	}
+	
+	.key li input.submit {
+		background:url("../images/invitation_key.gif") no-repeat scroll 0 0 transparent;
+		border:medium none;
+		width:152px;
+		height:41px;
+		border:1px solid #ff8f00;
+		float:left;
+}
+
+  .followuscontainer  {
+    margin-top:30px;
+    bottom:0;
+    height:16px;
+    right:5px;
+    color:#000000;
+    width:152px;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:12px;
+    margin-left:250px;
+}   
+
+.followuscontainer span {
+float:left;
+width:85px;
+}
+
+ .followuscontainer a img {
+float:left;
+padding-left:5px;
+border:0px;
+}
+
+
+
+
+.fotoer span {
+	margin-left:-10px;
+}
+.fotoer .key2 {
+	line-height: 30%;
+	text-align:left;
+	padding-left:162px;
+}
+
+.fotoer .key2 span { 
+	font-size:12px;
+	padding-left:10px;
+}
+
+.fotoer .key2 span.orange a{ 
+	font-size:12px;
+	color:#ff8f00;
+}
