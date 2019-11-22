@@ -170,17 +170,6 @@ close to the action no matter where you are!</p>
       				<p class="visit2"><a href="register.php" target="_blank">Pre-Register Today. It's 100% football! &raquo;</a></p>
       			</div>
       	</div>
-      	<div class="midbtm">
-      			<div class="midbtmleft">
-      				<p class="btmlefttext">Visit the GoalFace Blog</p>
-      				<p class="go"><a href="http://blog.goalface.com" target="_blank">Go to blog.goalface.com &raquo;</a></p>
-      			</div>
-      			<div class="midbtright">
-      				<p class="btmlefttext">Find us on Facebook</p>
-      				<p class="go"><a href="http://www.facebook.com/goalface" target="_blank">Go to www.facebook.com/goalface &raquo;</a></p>
-      			</div>
-      	</div>
-
     </div>
 
     <?php include "footer.php";?>
