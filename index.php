@@ -28,16 +28,16 @@
 			}
 		});
 	});
-</script> 
- 
+</script>
+
 <script type="text/javascript">
-      
+
 $(document).ready(function() {
 
 		$("#email").keyup(function(){
-		
+
 			var email = $("#email").val();
-		
+
 			if(email != 0)
 			{
 				if(isValidEmailAddress(email))
@@ -53,35 +53,35 @@ $(document).ready(function() {
 			} else {
 				$("#validEmail").css({
 					"background-image": "none"
-				});			
+				});
 			}
-		
+
 		});
-	
+
 	});
 
 
-	  
+
 	function isValidEmailAddress(emailAddress) {
  		var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
  		return pattern.test(emailAddress);
 	}
 
-	  
-	  
+
+
   function registerUser(){
 
 		var nm = document.getElementById('ErrorMessages');
 		if(nm.className == 'ErrorMessagesDisplay'){
         	nm.className = 'ErrorMessages';
 		}
-      
-		valid = validaNewForm('cform'); 
-      
+
+		valid = validaNewForm('cform');
+
 		if(!valid){
 			return;
 		}
-      
+
 		document.regform.action="registerForm.php"
 		document.regform.submit();
       }
@@ -93,7 +93,7 @@ $(document).ready(function() {
 <!-- main wrapper start here -->
 <div class="main_wrapper">
     <?php include "header.php";?>
-    
+
     <!-- main body content wrapper start here -->
     <div class="main_body_content_wrapper">
       <div class="banner">
@@ -106,8 +106,9 @@ $(document).ready(function() {
 											<div class="bannerinside ">
 												<div class="bannerleft">
 													<h1>Football Everywhere!</h1>
-													<h2>Fun, free and 100% football</h2>
-													<p class="bannertext">GoalFace delivers professional football from Europe, the Americas, Africa and Asia to fans everywhere. </p>
+													<h2>Professional football for fans everywhere.</h2>
+													<p class="bannertext">GoalFace delivers football from leagues and tournaments in the Americas, Africa, Asia and Europe to your device, email inbox, and
+more. It’s 100% football, and it’s FREE!</p>
 													<p class="signup"><a href="http://www.goalface.com/register.php" target="_blank">Pre-Register Now!</a></p>
 												</div>
 												<p class="bannerrightimg"><img src="images/sliderimg.png" alt=""/></p>
@@ -116,31 +117,9 @@ $(document).ready(function() {
 									<div class="slide">
 											<div class="bannerinside ">
 												<div class="bannerleft">
-													<h1>Football Everywhere!</h1>
-													<h2>Brings football to you anytime, everywhere, on demand</h2>
+													<h1>Football When You Want It!</h1>
+													<h2>Professional football to you anytime, on demand.</h2>
 													<p class="bannertext">GoalFace delivers live football scores, match alerts, goals, news and other updates to your email inbox, mobile phone and more whenever you want them.</p>
-												  <p class="signup"><a href="http://www.goalface.com/register.php" target="_blank">Pre-Register Now!</a></p>
-												</div>
-												<p class="bannerrightimg"><img src="images/BringsToYou.png" alt=""/></p>
-											</div>
-									</div>
-									<div class="slide">
-											<div class="bannerinside ">
-												<div class="bannerleft">
-													<h1>Football Everywhere!</h1>
-													<h2>Customize to focus on the things you care about most</h2>
-													<p class="bannertext">The GoalFace Dashboard gives you a single, personalized view of all your favorite football players, teams, leagues and tournaments around the world.</p>
-												  <p class="signup"><a href="http://www.goalface.com/register.php" target="_blank">Pre-Register Now!</a></p>
-												</div>
-												<p class="bannerrightimg"><img src="images/Customized.png" alt=""/></p>
-											</div>
-									</div>
-									<div class="slide">
-											<div class="bannerinside ">
-												<div class="bannerleft">
-													<h1>Football Everywhere!</h1>
-													<h2>Integrates with your favorite places in the web</h2>
-													<p class="bannertext">GoalFace player updates, team alerts, league RSS feeds, apps and widgets bring football to Facebook, Google+, Twitter and all of your favorite places online. </p>
 												  <p class="signup"><a href="http://www.goalface.com/register.php" target="_blank">Pre-Register Now!</a></p>
 												</div>
 												<p class="bannerrightimg"><img src="images/Integrates.png" alt=""/></p>
@@ -171,21 +150,24 @@ $(document).ready(function() {
       						<li><a href="http://www.goalface.com" target="_blank"><img src="images/newimg3.jpg" alt=""/></a></li>
       					</ul>
       				</div>
-      				<p class="favorites">All of your favorites in one place!</p>
-      				<p class="favourtext">Profiles, live updates and more for 100,000+ professional football players and teams from 200+ leagues and tournaments around the world.</p>
-      				<p class="visit"><a href="http://www.goalface.com" target="_blank">Visit GoalFace.com &raquo;</a></p>
+      				<p class="favorites">All of your favorites in one place and everywhere!</p>
+      				<p class="favourtext">Player profiles, team pages, and league & tournament match calendars for all your favorites together in one place and available to
+you on your mobile device, desktop, TV, and your email inbox.</p>
+      				<p class="visit2"><a href="tour.php" target="_blank">Take the Quick Tour &raquo;</a></p>
       			</div>
       			<div class="midleftbg">
       				<p class="newimg"><a href="tour.php"><img src="images/midimg.png" alt=""/></a></p>
-      				<p class="favorites">Find out what makes GoalFace great</p>
-      				<p class="favourtext">Your favorite social networking features mixed in with scores, news and more in a place that is 100% football!</p>
-      				<p class="visit1"><a href="tour.php" target="_blank">Take the Quick Tour &raquo;</a></p>
+      				<p class="favorites">Find out what makes GoalFace great!</p>
+      				<p class="favourtext">A personal dashboard to help you organize, manage, and follow your favorite teams, players, leagues and tournaments around the
+world in a place that is 100% football. No more searching the web or visiting dozens of websites to keep up with your favorites!</p>
+      				<p class="visit2"><a href="tour.php" target="_blank">Take the Quick Tour &raquo;</a></p>
       			</div>
       			<div class="midleftbg">
       				<p class="newimg"><a href="register.php" target="_blank"><img src="images/joinnow.png" alt=""/></a></p>
-      				<p class="favorites">Football when, where and how you want it</p>
-      				<p class="favourtext">Updates for the players and teams in the leagues and tournaments you care about most!. GoalFace notifications and alerts keep you close to the action no matter where you are!.</p>
-      				<p class="visit2"><a href="register.php" target="_blank">Pre-Register Today! &raquo;</a></p>
+      				<p class="favorites">Football where and how you want it!</p>
+      				<p class="favourtext">Updates for players and teams in the leagues and tournaments you care about most! GoalFace notifications and alerts keep you
+close to the action no matter where you are!</p>
+      				<p class="visit2"><a href="register.php" target="_blank">Pre-Register Today. It's 100% football! &raquo;</a></p>
       			</div>
       	</div>
       	<div class="midbtm">
@@ -198,9 +180,9 @@ $(document).ready(function() {
       				<p class="go"><a href="http://www.facebook.com/goalface" target="_blank">Go to www.facebook.com/goalface &raquo;</a></p>
       			</div>
       	</div>
-			
+
     </div>
-    
+
     <?php include "footer.php";?>
 
 </div>

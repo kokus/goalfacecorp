@@ -6,7 +6,7 @@ html {
 	padding:0px;
 	background:url(../images/page_background.jpg) repeat-x;
 	background-position:top;
-	font-family:arial,helvetica,clean,sans-serif;	
+	font-family:arial,helvetica,clean,sans-serif;
 	font-size:12px;
 	font-size-adjust:none;
 	font-style:normal;
@@ -79,7 +79,7 @@ img {
 	height:30px;
 	margin-top:3px;
 	margin-right:0px;
-	/*argin-right:20px; for 6 options on main navigation menu*/ 
+	/*argin-right:20px; for 6 options on main navigation menu*/
 }
 
 
@@ -99,7 +99,7 @@ img {
 	font-size:14px;
 	font-weight:bold;
 	display:block;
-	width:119px; 
+	width:119px;
 	text-align:center;
 }
 
@@ -165,7 +165,7 @@ img {
 
 .main_body_content_single p,
 .main_body_content_right p {
- 
+
 	margin: 0;
     padding: 0 0 12px;
     text-align: justify;
@@ -438,8 +438,8 @@ img {
     padding:7px 7px 7px 28px;
     width:760px;
     position:relative;
-	  display:none; 
-}  
+	  display:none;
+}
 
 .ErrorMessagesDisplay
 {
@@ -542,7 +542,7 @@ select {
 
 
 .main_body_content_single .resource h1{
-	float:left;	
+	float:left;
 	font-weight:bold;
 	font-size:14px;
 	color:#ff9900;
@@ -690,7 +690,7 @@ select {
 	margin-left:200px;
 }
 
-.main_body_content_single .tour .tour_text, 
+.main_body_content_single .tour .tour_text,
 .tour .tour_text {
 	float:left;
 	width:560px;
@@ -891,12 +891,12 @@ select {
 .main_body_content_right .resource .rimgs .scimgs img{
   border: 1px solid #6F9BBC;
 }
- 
+
 
 .main_body_content_right ul.presslist {
    padding:0px;
    margin:0px;
-  
+
 }
 
 .main_body_content_right ul.presslist li {
@@ -936,11 +936,11 @@ select {
 
 .goal_face_features_wrapper {
 	width:584px;
-	margin:0 auto;	
+	margin:0 auto;
 	padding-top:20px;
 	padding-left:0px;
 	float:left;
-	
+
 }
 .goal_face_features {
 	width:494px;
@@ -1103,7 +1103,7 @@ select {
 	color:#015b8d;
 	/*width:101px;*/
 	width:75px;
-	display:block;	
+	display:block;
 }
 
 .footer_middle_part ul li a.lastone {
@@ -1120,7 +1120,7 @@ padding-right: 0;
 .footer_middle_part ul li.goalface a {
 text-align:right;
 width: 70px;
-} 
+}
 
 
 .footer_middle_part ul li a:hover {
@@ -1140,7 +1140,7 @@ width: 70px;
 	text-decoration:none;
 	/*background:url(../images/footer_tab_selected.jpg) no-repeat;
 	background-position:center;*/
-	
+
 	color:#FFF;
 }
 
@@ -1291,7 +1291,7 @@ margin:5px 0px 0px 0px;
 .midleftbg{
 float:left;
 width:261px;
-height:231px;
+height:240px;
 background:#f5fbfc;
 border:1px solid #b9cfdc;
 margin:0px 5px 0px 0px;
@@ -1499,4 +1499,3 @@ list-style:none;
 float:left;
 margin:0px 0px 0px 2px;
 }
-
